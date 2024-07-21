@@ -1,0 +1,13 @@
+flask
+chromadb
+google-generativeai
+yfinance
+pandas
+bs4
+openai
+langchain_community
+statsmodels
+duckduckgo-search
+flask-cors
+gunicorn
+gevent
