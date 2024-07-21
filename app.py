@@ -55,7 +55,7 @@ def create_motivation(ticker='AAPL'):
         data = read_json_file(f"company_data_{ticker}.json")
         context = data
     else:
-        final_score = get_recommendation([f'ticker'])
+        final_score = get_recommendation([f'{ticker}'])
         data = read_json_file(f"company_data_{ticker}.json")
         context = data
 
